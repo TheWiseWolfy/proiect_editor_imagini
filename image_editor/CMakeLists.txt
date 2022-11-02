@@ -1,0 +1,17 @@
+﻿# CMakeList.txt : CMake project for image_editor, include source and define
+# project specific logic here.
+#
+cmake_minimum_required (VERSION 3.23)
+
+# Add source to this project's executable.
+
+file(GLOB_RECURSE source_files
+     "*.qrc"
+     "*.ui"
+     "*.h"
+     "*.cpp"
+)
+
+add_executable(image_editor ${source_files})
+
+# TODO: Add tests and install targets if needed.
