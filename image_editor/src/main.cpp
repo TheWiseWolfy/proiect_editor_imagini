@@ -9,7 +9,7 @@ using namespace cv;
 
 int main(int argc, char *argv[])
 {
-    Mat img = imread("E:/Projects/PIU Project/Proiect_cmake/imagine.jpg", IMREAD_COLOR);
+    Mat img = imread("E:/Projects/PIU Project/image_editor/image_editor/src/imagine.jpg", IMREAD_COLOR);
 
     imshow("Text", img);
 	

@@ -21,7 +21,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)                                                           
 set(CMAKE_AUTOUIC ON)
 
-set (CMAKE_AUTOUIC_SEARCH_PATHS "${CMAKE_SOURCE_DIR}/image_editor/ui")
+set (CMAKE_AUTOUIC_SEARCH_PATHS "${CMAKE_SOURCE_DIR}/image_editor")
 
 #all the libraries are here
 find_package(Qt5 COMPONENTS Core REQUIRED)
